@@ -18,10 +18,14 @@ All names in table are fictitious. No identification with actual persons (living
  Code Flow:
 ------------
 
-* ViewController class - Main VC. On first launch will issue a call in the background (In Global Q ,to allow UI responsivenss) for fetching the contents of the data source from server (it's a file residing on myjson.com which I prepared earlier - see property `remoteJsonUrl`). he Newtworking is executed via class `NetworkSession` that makes use of URLSession (not a must, if feel like AlamoFire or something else - it's cool :) ). 
+* ViewController class - Main VC. On first launch will issue a call in the background (In Global Q ,to allow UI responsivenss) for fetching the contents of the data source from server (it's a file residing on myjson.com which I prepared earlier - see property `remoteJsonUrl`). The Newtworking is executed via class `NetworkSession` that makes use of URLSession (not a must, if feel like AlamoFire or something else - it's cool :) ). 
+
 When the data source is fetched, it is parsed (class `ProductsParser`) from json to data structure that would fit the data source of the table (array of cells containing text and url of avatar). 
+
 Important to mind that all fetches are done asynchronously in the global Q and when that data is fetched and needed to be embedded in UI, only then we call main Q (and also aysnc - for a better UI response). 
+
 Also mind that we need another network call to fetch the thumbnail, since in first fetch we just brought its url in the json (If you start to posses lots of images, you might wanna consider some sort of cache for them - there are good frameworks for that in GitHub (e.g. KingFisher))
+
 You can find remarks also in code for major benchmarks.
 
 Screenshot added in project for general impression.

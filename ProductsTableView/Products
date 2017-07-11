@@ -1,0 +1,72 @@
+[
+    {
+        "name":"Matthew Forester",
+        "role":"CEO",
+        "thumbnail":"https://cdn.pixabay.com/photo/2013/07/13/10/07/man-156584_960_720.png"
+    },
+    {
+        "name":"Lyn Beckousky",
+        "role":"CEO Assistant",
+        "thumbnail":"https://cdn.pixabay.com/photo/2017/01/31/19/07/avatar-2026510_960_720.png"
+    },
+    {
+        "name":"Fione Fanswoth",
+        "role":"HR Manager",
+        "thumbnail":"https://cdn.pixabay.com/photo/2017/03/01/22/18/avatar-2109804_960_720.png"
+    },
+    {
+        "name":"Kelly Redfork",
+        "role":"Office Administrator",
+        "thumbnail":"https://cdn.pixabay.com/photo/2016/03/31/19/10/avatar-1294766_960_720.png"
+    },
+    {
+        "name":"Jones Paskin",
+        "role":"Android Team Leader",
+        "thumbnail":"https://cdn.pixabay.com/photo/2013/07/12/15/24/goaty-149860_960_720.png"
+    },
+    {
+        "name":"Amber Flinn",
+        "role":"UX Designer",
+        "thumbnail":"https://cdn.pixabay.com/photo/2016/03/31/19/11/asian-1294777_960_720.png"
+    },
+    {
+        "name":"Roger Stone",
+        "role":"IP Consultant",
+        "thumbnail":"https://cdn.pixabay.com/photo/2016/03/31/19/11/avatar-1294783_960_720.png"
+    },
+    {
+        "name":"Alex Rook",
+        "role":"Analytics Expert",
+        "thumbnail":"https://cdn.pixabay.com/photo/2017/01/31/21/23/avatar-2027365_960_720.png"
+    },
+    {
+        "name":"Felice Montgomery",
+        "role":"Customer Services Manager",
+        "thumbnail":"https://cdn.pixabay.com/photo/2016/03/31/19/10/avatar-1294772_960_720.png"
+    },
+    {
+        "name":"Joshua Barnette",
+        "role":"iOS Software Engineer",
+        "thumbnail":"https://cdn.pixabay.com/photo/2016/03/31/19/10/avatar-1294769_960_720.png"
+    },
+    {
+        "name":"Ron Essen",
+        "role":"Android Developer",
+        "thumbnail":"https://cdn.pixabay.com/photo/2016/03/31/19/10/avatar-1294775_960_720.png"
+    },
+    {
+        "name":"Francheska Shaw",
+        "role":"Marketing Chief",
+        "thumbnail":"https://cdn.pixabay.com/photo/2017/01/31/21/23/avatar-2027367_960_720.png"
+    },
+    {
+        "name":"Jasmin Chung",
+        "role":"HR Coordinator",
+        "thumbnail":"https://cdn.pixabay.com/photo/2013/07/12/15/24/woman-149861_960_720.png"
+    },
+    {
+        "name":"Suzan Howell",
+        "role":"Arts Director",
+        "thumbnail":"https://cdn.pixabay.com/photo/2017/01/31/21/23/avatar-2027369_960_720.png"
+    }
+]

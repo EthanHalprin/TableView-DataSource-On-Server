@@ -22,9 +22,9 @@ All names in table are fictitious. No identification with actual persons (living
 
 When the data source is fetched, it is parsed (class `ProductsParser`) from json to data structure that would fit the data source of the table (array of cells containing text and url of avatar). 
 
-Important to mind that all fetches are done asynchronously in the global Q and when that data is fetched and needed to be embedded in UI, only then we call main Q (and also aysnc - for a better UI response). 
+Important to mind that all fetches are done asynchronously in the global Q and when that data is fetched and needed to be embedded in UI, only then I call main Q (and also async - for a better UI response). 
 
-Also mind that we need another network call to fetch the thumbnail, since in first fetch we just brought its url in the json (If you start to posses lots of images, you might wanna consider some sort of cache for them - there are good frameworks for that in GitHub (e.g. KingFisher))
+Also mind that I need another network call to fetch the thumbnail, since in first fetch I just brought its url in the json (If you start to posses lots of images, you might wanna consider some sort of cache for them - there are good frameworks for that in GitHub (e.g. KingFisher))
 
 You can find remarks also in code for major benchmarks.
 

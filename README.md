@@ -1,5 +1,5 @@
 # TableView-DataSource-On-Server
-Table View who gets it data source and thumbnails from the Web
+Table View who gets its data source and thumbnails from the Web
 
  ![screenshot](/Simulatorscreen1.png)
  
@@ -7,7 +7,7 @@ Table View who gets it data source and thumbnails from the Web
 License:
 ------------
 
-* Code - Free License
+* Code - Mine, so it's Free License as far as I'm concerned for any purpose.
 * Images - Pixabay. They are free, but if you about to extend the use of the images for any commercial purposes or not sure what you can do with them, please visit Pixabay to make sure you comply to any licenses introduced there
 * Json File - mysjon.com. Same rule as for Pixabay applies here : the service is free, but if you want to use it commercially or not sure about something please visit myjson.com for details
 
